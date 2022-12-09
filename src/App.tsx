@@ -1,5 +1,7 @@
+import { AppRouting } from "@/routes";
+
 function App() {
-  return <></>;
+  return <AppRouting />;
 }
 
 export default App;
