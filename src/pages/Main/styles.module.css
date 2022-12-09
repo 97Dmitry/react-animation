@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.character-wrapper {
+  display: flex;
+}
+
+.character-wrapper div:last-child {
+  margin-right: 0;
+}
+
+.character {
+  font-size: 5rem;
+  margin-right: 20px;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.text span {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.text span:last-child {
+  padding-right: 0;
+}
